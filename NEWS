@@ -1,3 +1,12 @@
+CHANGES IN VERSION 1.0.1
+------------------------
+ o fixed row ordering in phenoDisco, input and output rownames are now the same <2013-08-13 Tue>
+ o Using filterNA in phenoDisco <2013-08-13 Tue>
+
+CHANGES IN VERSION 1.0.0
+------------------------
+ o Version bump for release 2.12
+
 CHANGES IN VERSION 0.99.17
 --------------------------
  o illustrating class.weights in the 
