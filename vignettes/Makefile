@@ -25,11 +25,6 @@ all:
 	make poster
 	make ml
 
-setvars:
-ifeq (${R_HOME},)
-R_HOME= $(shell R RHOME)
-endif
-
 tut:
 	"$(R_HOME)/bin/R" CMD pdflatex pRoloc-tutorial.tex
 	bibtex pRoloc-tutorial
