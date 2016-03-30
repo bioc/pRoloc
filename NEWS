@@ -1,3 +1,7 @@
+CHANGES IN VERSION 1.10.2
+-------------------------
+ o Update dunkley2006params <2016-03-30 Wed>
+
 CHANGES IN VERSION 1.10.1
 -------------------------
 o Internally using MartInterface to query individual mart servers to
