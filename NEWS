@@ -1,6 +1,7 @@
 CHANGES IN VERSION 1.12.4
 -------------------------
  o Fixed bug in plotDist x-axis labelling <2016-06-14 Tue>
+ o Remove left-over browser call <2016-06-14 Tue>
 
 CHANGES IN VERSION 1.12.3
 -------------------------
