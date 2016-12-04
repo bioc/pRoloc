@@ -1,3 +1,9 @@
+CHANGES IN VERSION 1.14.5
+-------------------------
+ o Update plotDist to use sampleNames() to label x axis ticks and
+   getUnknowncol() as default pcol (see issue #91) <2016-11-08 Tue>
+ o xlab and ylab are args in plotDist <2016-12-04 Sun>
+
 CHANGES IN VERSION 1.14.4
 -------------------------
  o Re-generate man files to fix params error (see 1.14.2) <2016-11-08 Tue> 
