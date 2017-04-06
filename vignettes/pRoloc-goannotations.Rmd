@@ -41,7 +41,7 @@ In the code chunk below we set the annotation parameters for the `hyperLOPIT2015
 
 ```{r queryparams}
 params <- setAnnotationParams(inputs = c("Mus musculus", 
-                                         "UniProt/Swiss-Prot ID"))
+                                         "UniProtKB/Swiss-Prot ID"))
 ```
 
 Now the parameters for the search have been defined we can use the `addGoAnnotations` function to add a GO information matrix to the `featureData` slot of the dataset. The `addGoAnnotations` function takes a `MSnSet` instance as input (from which the `featureNames` will be extracted) and it downloads the CC terms (the default, biological process and the molecular function namespaces are also supported) found for each protein in the dataset. The output `MSnSet` has the CC term binary matrix appended to the `fData`, by default this is called `GOAnnotations` (and changed using the `fcol` argument).
