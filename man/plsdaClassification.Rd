@@ -55,4 +55,3 @@ plot2D(res, fcol = "plsda")
 \author{
 Laurent Gatto
 }
-

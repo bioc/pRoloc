@@ -53,4 +53,3 @@ plot2D(res, fcol = "svm")
 \author{
 Laurent Gatto
 }
-

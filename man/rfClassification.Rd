@@ -51,4 +51,3 @@ plot2D(res, fcol = "rf")
 \author{
 Laurent Gatto
 }
-

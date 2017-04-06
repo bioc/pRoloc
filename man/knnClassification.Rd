@@ -51,4 +51,3 @@ plot2D(res, fcol = "knn")
 \author{
 Laurent Gatto
 }
-

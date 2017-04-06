@@ -68,9 +68,6 @@ getPredictions(res, fcol = "perTurbo")
 getPredictions(res, fcol = "perTurbo", t = 0.75)
 plot2D(res, fcol = "perTurbo")
 }
-\author{
-Thomas Burger and Samuel Wieczorek
-}
 \references{
 N. Courty, T. Burger, J. Laurent. "PerTurbo: a new classification algorithm
 based on the spectrum perturbations of the Laplace-Beltrami operator",
@@ -79,4 +76,6 @@ Knowledge Discovery in Databases (ECML-PKDD 2011), D. Gunopulos et al.
 (Eds.): ECML PKDD 2011, Part I, LNAI 6911, pp. 359 - 374,
 Athens, Greece, September 2011.
 }
-
+\author{
+Thomas Burger and Samuel Wieczorek
+}

@@ -62,10 +62,9 @@ res <- knntlClassification(andy2011, andy2011goCC,
 res
 }
 }
-\author{
-Lisa Breckels
-}
 \seealso{
 \code{\link{knntlOptimisation}}
 }
-
+\author{
+Lisa Breckels
+}

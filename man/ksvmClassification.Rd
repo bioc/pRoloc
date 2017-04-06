@@ -52,4 +52,3 @@ plot2D(res, fcol = "ksvm")
 \author{
 Laurent Gatto
 }
-

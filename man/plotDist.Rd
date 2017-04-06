@@ -38,6 +38,10 @@ is 1 (solid). See \code{\link{par}} for details.}
 variable to be used to label the fraction along the x
 axis. Default is to use \code{sampleNames(object)}.}
 
+\item{ylab}{y-axis label. Default is "Intensity".}
+
+\item{xlab}{x-axis label. Default is "Fractions".}
+
 \item{ylim}{A numeric vector of length 2, giving the y coordinates
 range.}
 
@@ -63,4 +67,3 @@ plotDist(tan2009r1[i, ],markers = featureNames(tan2009r1)[j],
 \author{
 Laurent Gatto
 }
-

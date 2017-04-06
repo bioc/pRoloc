@@ -54,4 +54,3 @@ plot2D(res, fcol = "nnet")
 \author{
 Laurent Gatto
 }
-
