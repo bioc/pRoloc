@@ -37,11 +37,11 @@ hyperLOPIT2015 <- markerMSnSet(hyperLOPIT2015)
 All GO terms associated to proteins that appear in the dataset are retrieved and used to create a binary matrix where a 1 (0) at position $(i,j)$ indicates that term $j$ has (not) been used to annotate feature $i$. This matrix is appended and stored in the feature data slot of the `MSnSet` dataset using the `addGoAnnotations` function. We first however need to prepare annotation parameters that will enable us to query the Biomart repository using the \Biocpkg{biomaRt} package, from where we are able to retrieve GO terms. The specific Biomart repository and query
 will depend on the species under study and the type of features. This can be set using the `setAnnotationParams` function.
 
-In the code chunk below we set the annotation parameters for the `hyperLOPIT2015` dataset. As this species used was mouse and the `featureNames` of the da`hyperLOPIT2015` dataset are Uniprot accession numbers the input to the function is defined as `inputs = c("Mus musculus", "UniProt/Swissprot")`. See `?setAnnotationParams` for details.
+In the code chunk below we set the annotation parameters for the `hyperLOPIT2015` dataset. As this species used was mouse and the `featureNames` of the da`hyperLOPIT2015` dataset are Uniprot accession numbers the input to the function is defined as `inputs = c("Mus musculus", "UniProt/Swiss-prot ID")`. See `?setAnnotationParams` for details.
 
 ```{r queryparams}
 params <- setAnnotationParams(inputs = c("Mus musculus", 
-                                         "UniProt/Swissprot"))
+                                         "UniProt/Swiss-prot ID"))
 ```
 
 Now the parameters for the search have been defined we can use the `addGoAnnotations` function to add a GO information matrix to the `featureData` slot of the dataset. The `addGoAnnotations` function takes a `MSnSet` instance as input (from which the `featureNames` will be extracted) and it downloads the CC terms (the default, biological process and the molecular function namespaces are also supported) found for each protein in the dataset. The output `MSnSet` has the CC term binary matrix appended to the `fData`, by default this is called `GOAnnotations` (and changed using the `fcol` argument).
