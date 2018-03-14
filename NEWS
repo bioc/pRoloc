@@ -1,3 +1,12 @@
+Changes in version 1.18.0
+-------------------------
+- Pass fcol internally in QSep 
+
+Changes in version 1.18.0
+-------------------------
+- Version bump for Release 3.6
+
+
 Changes in version 1.17.5
 -------------------------
 - Filtering for unique features when running plot2D with t-SNE method

@@ -1,3 +1,11 @@
+# pRoloc 1.18
+
+## Changes in version 1.18.0
+- Pass fcol internally in QSep 
+
+## Changes in version 1.18.0
+- Version bump for Release 3.6
+
 # pRoloc 1.17
 
 ## Changes in version 1.17.5
