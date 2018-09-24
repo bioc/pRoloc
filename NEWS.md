@@ -1,5 +1,14 @@
 # pRoloc 1.19
 
+## Changes in version 1.20.2
+-  Fix bug in plot method for ThetaRegRes object <2018-09-24 Mon>
+
+## Changes in version 1.20.1
+- Version bump for BiocStyle update
+
+## Changes in version 1.20.0
+- New version for Bioc release 3.7
+
 ## Changes in version 1.19.4
 - Fix regression bug in knntl function <2018-04-12 Thu>
 
