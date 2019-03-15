@@ -4,7 +4,7 @@ author:
 - name: Lisa M. Breckels
   affiliation: Computational Proteomics Unit, Cambridge, UK
 - name: Laurent Gatto
-  affiliation: Computational Proteomics Unit, Cambridge, UK
+  affiliation: de Duve Institute, UCLouvain, Belgium
 package: pRoloc
 abstract: >
   This vignette illustrates the application of a *transfer learning*
@@ -16,7 +16,7 @@ abstract: >
   these data sources.
 output:
   BiocStyle::html_document:
-    toc_float: true
+   toc_float: true
 bibliography: pRoloc.bib
 vignette: >
   %\VignetteIndexEntry{A transfer learning algorithm for spatial proteomics}
@@ -491,9 +491,9 @@ function supports parallelised execution using various backends thanks
 to the `r Biocpkg("BiocParallel")` package; an appropriate backend
 will be defined automatically according to the underlying architecture
 and user-defined backends can be defined through the `BPPARAM`
-argument^[Large scale applications of this algorithms were run on a cluster using an MPI backend defined with `SnowParams(256, type="MPI")`.]. Also,
-in the interest of time, the weights optimisation is repeated only 5
-times below.
+argument^[Large scale applications of this algorithms were run on a cluster using an MPI backend defined with `SnowParams(256, type="MPI")`.].
+Also, in the interest of time, the weights optimisation is repeated
+only 5 times below.
 
 ```{r thetaopt, eval=TRUE}
 set.seed(1)
