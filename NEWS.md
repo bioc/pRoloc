@@ -1,3 +1,11 @@
+# pRoloc 1.24
+
+## Changes in version 1.25.1
+
+- Fix new biomart attribute <2019-08-09 Fri>
+- Bug fix: pass fcol to helper function (see
+  https://support.bioconductor.org/p/123614/) <2019-08-09 Fri>
+
 # pRoloc 1.23
 
 ## Changes in version 1.23.4
