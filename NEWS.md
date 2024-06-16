@@ -1,12 +1,12 @@
-# pRoloc 1.45
+# pRoloc 1.44
 
-## Changes in version 1.45.1
+## Changes in version 1.44.1
 
 - Import 'mclust::estep*()'.
 
-## Changes in version 1.45.0
+## Changes in version 1.44.0
 
-- New devel version
+- New releast version
 
 # pRoloc 1.43
 
