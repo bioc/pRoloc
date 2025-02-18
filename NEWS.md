@@ -1,3 +1,13 @@
+# pRoloc 1.46
+
+## Changes in version 1.46.1
+
+- Lisa Breckels is now maintainer.
+
+## Changes in version 1.46.0
+
+- New release version
+
 # pRoloc 1.45
 
 ## Changes in version 1.45.2
